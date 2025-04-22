@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkgreen"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/latoblack"
+        android:text="Sign In"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your username"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/latobold"
+        android:padding="15dp"
+        android:textColor="@color/darkgreen"
+        android:background="@drawable/editboxbackground2"
+        android:textColorHint="#27473F" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:fontFamily="@font/latobold"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:textColor="@color/darkgreen"
+        android:background="@drawable/editboxbackground2"
+        android:textColorHint="@color/darkgreen" />
+
+
+    <CheckBox
+        android:id="@+id/rememberMeCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember Me"
+        android:textStyle="bold"
+        android:fontFamily="@font/latobold"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"/>
+
+
+    <CheckBox
+        android:id="@+id/rememberPasswordCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="@font/latobold"
+        android:text="Remember Password"
+        android:textColor="@color/white"
+        android:layout_marginTop="0dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/yollowbtncolor"
+        android:padding="15dp"
+        android:fontFamily="@font/latoblack"
+        android:text="Log In"
+        android:textColor="@color/darkgreen" />
+
+
+    <TextView
+        android:id="@+id/registerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/latoregular"
+        android:text="Don't have an account?"
+        android:textColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/latoblack"
+        android:background="@color/yollowbtncolor"
+        android:padding="15dp"
+        android:text="Register Now"
+        android:textColor="@color/darkgreen" />
+
+
+</LinearLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkgreen"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/latoblack"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/editboxbackground2"
+        android:fontFamily="@font/latoregular"
+        android:hint="Enter your username"
+        android:padding="15dp"
+        android:textColor="@color/darkgreen"
+        android:textColorHint="@color/darkgreen"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/editboxbackground2"
+        android:fontFamily="@font/latoregular"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textColor="@color/darkgreen"
+        android:textColorHint="@color/darkgreen"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/phoneEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/editboxbackground2"
+        android:fontFamily="@font/latoregular"
+        android:hint="Enter your phone number"
+        android:inputType="phone"
+        android:padding="15dp"
+        android:textColor="@color/darkgreen"
+        android:textColorHint="@color/darkgreen"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/addressEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/editboxbackground2"
+        android:fontFamily="@font/latoregular"
+        android:hint="Enter your address"
+        android:inputType="textPostalAddress"
+        android:padding="15dp"
+        android:textColor="@color/darkgreen"
+        android:textColorHint="@color/darkgreen"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/editboxbackground2"
+        android:fontFamily="@font/latoregular"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textColor="@color/darkgreen"
+        android:textColorHint="@color/darkgreen"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/registerButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/yollowbtncolor"
+        android:fontFamily="@font/latoblack"
+        android:padding="15dp"
+        android:text="Sign Up "
+        android:textColor="@color/darkgreen" />
+
+
+    <TextView
+        android:id="@+id/loginTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/latoregular"
+        android:gravity="center"
+        android:text="Already have an account?"
+        android:textColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signinbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/yollowbtncolor"
+        android:fontFamily="@font/latoblack"
+        android:padding="15dp"
+        android:text="Sign in"
+        android:textColor="@color/darkgreen" />
+
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:background="#FFFFFF"
+    android:layout_marginBottom="0dp"
+    android:elevation="0dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="8dp"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="0dp"
+        android:elevation="2dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@drawable/background1"
+            android:layout_marginBottom="0dp"
+            >
+
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#0D5F05"
+        android:text=""
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/lightgreen"
+        android:text=""
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/lightgreen"
+        android:text=""
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/itemTypeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/lightgreen"
+        android:text=""
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:text=""
+        android:textStyle="bold"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="0dp"/>
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:text=""
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp"/>
+
+            <ImageView
+                android:id="@+id/postImageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_marginBottom="8dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
